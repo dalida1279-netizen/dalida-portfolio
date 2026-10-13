@@ -3,150 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madihaosman - Professional Portfolio</title>
-    <!-- Bootstrap CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Madiha Osman | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; color: #333; }
-        .hero-section { background: linear-gradient(135deg, #0d6efd, #6610f2); color: white; padding: 110px 0 90px; }
-        .card { border: none; transition: transform 0.3s ease, shadow 0.3s ease; }
-        .card:hover { transform: translateY(-6px); }
-        .skill-card { border-radius: 12px; border-left: 4px solid #0d6efd; }
-    </style>
-</head>
-<body>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold fs-4" href="#">Madihaosman</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero-section text-center">
-        <div class="container">
-            <h1 class="display-3 fw-bold mb-3">Madiha Osman Mahmoud Osman</h1>
-            <p class="lead mb-4 fs-3">Business Information Systems (BIS) | UI/UX Designer & Web Developer</p>
-            <a href="#projects" class="btn btn-light btn-lg text-primary fw-bold shadow-sm px-4 py-2">Explore My Work</a>
-        </div>
-    </section>
-
-    <!-- About Me Section -->
-    <section id="about" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4 fw-bold">About Me</h2>
-            <div class="row justify-content-center">
-                <div class="col-lg-9 text-center">
-                    <p class="fs-5 text-muted lh-lg">
-                        I am an ambitious student majoring in <strong>Business Information Systems (BIS)</strong> with a deep passion for <strong>UI/UX Design</strong> and front-end web development. My background bridges the gap between technology and business strategy—allowing me to analyze user needs, understand business requirements, and craft intuitive, responsive, and aesthetically pleasing digital experiences.
-                    </p>
-                    <p class="fs-6 text-muted mt-3">
-                        I thrive on solving user interface challenges and creating human-centered web applications using modern web standards.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="py-5 bg-white">
-        <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Skills & Expertise</h2>
-            <div class="row g-4 text-center">
-                <div class="col-md-4">
-                    <div class="p-4 shadow-sm bg-light skill-card h-100">
-                        <i class="fa-solid fa-pen-ruler fa-3x text-warning mb-3"></i>
-                        <h5 class="fw-bold">UI/UX Design</h5>
-                        <p class="text-muted small">User Research, Wireframing, Prototyping, and Human-Centered Interface Design.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 shadow-sm bg-light skill-card h-100">
-                        <i class="fa-brands fa-html5 fa-3x text-danger mb-3"></i>
-                        <h5 class="fw-bold">HTML5 & Structure</h5>
-                        <p class="text-muted small">Semantic HTML markup, web accessibility best practices, and structured layouts.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 shadow-sm bg-light skill-card h-100">
-                        <i class="fa-brands fa-css3-alt fa-3x text-primary mb-3"></i>
-                        <h5 class="fw-bold">CSS3 & Styling</h5>
-                        <p class="text-muted small">Custom styling, animations, typography, and clean visual design concepts.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="p-4 shadow-sm bg-light skill-card h-100">
-                        <i class="fa-brands fa-bootstrap fa-3x mb-3" style="color: #7952b3;"></i>
-                        <h5 class="fw-bold">Bootstrap Framework</h5>
-                        <p class="text-muted small">Building modern, responsive, mobile-first web pages that work seamlessly across all screen sizes.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="p-4 shadow-sm bg-light skill-card h-100">
-                        <i class="fa-solid fa-chart-line fa-3x text-success mb-3"></i>
-                        <h5 class="fw-bold">Business & Systems Analysis</h5>
-                        <p class="text-muted small">Understanding business process logic, information workflow, and digital transformation strategy.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Projects & Work</h2>
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <div class="card shadow-sm h-100 p-3">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold text-primary">Personal Portfolio Website</h5>
-                            <p class="card-text text-muted">An interactive, responsive portfolio built with HTML5, CSS3, and Bootstrap, showcasing user-centric UI/UX principles and skills.</p>
-                            <a href="https://github.com" target="_blank" class="btn btn-outline-primary btn-sm mt-2">View Source Code on GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card shadow-sm h-100 p-3">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold text-primary">UI/UX Mobile App Concept</h5>
-                            <p class="card-text text-muted">Design wireframes and interactive prototype focusing on smooth user journey, modern aesthetics, and seamless usability.</p>
-                            <a href="https://github.com" target="_blank" class="btn btn-outline-primary btn-sm mt-2">View Project Details</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact & Footer -->
-    <footer id="contact" class="bg-dark text-white py-4 text-center">
-        <div class="container">
-            <h4 class="mb-3 fw-bold">Get In Touch</h4>
-            <div class="mb-3">
-                <a href="mailto:dalida1279@gmail.com" class="text-white fs-4 me-3"><i class="fa-solid fa-envelope"></i></a>
-                <a href="https://github.com" target="_blank" class="text-white fs-4"><i class="fa-brands fa-github"></i></a>
-            </div>
-            <p class="mb-1 text-light">dalida1279@gmail.com</p>
-            <p class="mb-0 text-muted small">&copy; 2026 Dalida Osman. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <!-- Bootstrap JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-  </html>
+        body {
+            background-color: #07090e;
+            color: #f8fafc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .navbar {
+            background-color: #07090e !important;
+            border-bottom: 1px solid #1e293b;
+        }
+        .hero-section {
+            padding: 90px 0 60px 0;
+        }
+        .badge-welcome {
+            background-color: rgba(59, 130, 246, 0.2);
+            color: #93c5fd;
+            border: 1px solid rgba(59, 130, 246, 0.5);
+            border-radius: 20px;
+            padding: 6px 16px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .profile-card {
+            background-color: #111827;
+            border: 2px solid #3b82f6;
+            border-radius: 20px;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(59, 130, 246
